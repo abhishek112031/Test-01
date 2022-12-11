@@ -1,0 +1,82 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.main-header {
+    height: 3.5rem;
+    width: 100%;
+    background-color: rgb(221, 131, 21);
+    padding: 0 1.5rem;
+}
+
+.main-header__nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.main-header__item-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.main-header__item {
+    margin: 0;
+    padding: 0;
+    margin: 0 1rem;
+}
+
+.main-header__item a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.main-header__item a:hover,
+.main-header__item a:active,
+.main-header__item a.active {
+    color: blue;
+
+}
+
+main {
+    padding: 1rem;
+}
+.form-control label,
+.form-control input{
+    display:block;
+
+}
+.form-control input{
+    border: 2px solid yellowgreen;
+    font:inherit;
+    border-radius: 3px;
+    width: 100%;
+}
+.form-control{
+    margin: 1rem 0;
+}
+.product-form{
+    width: 20rem;
+    max-width: 90%;
+    margin: auto;
+}
+button{
+    font: inherit;
+    border: 1px solid yellow;
+    border-radius: 6px;
+    background-color: blue;
+    cursor: pointer;
+}
+button:hover,
+button:active{
+    background-color: rgb(104, 28, 28);
+    color: white;
+    
+}
