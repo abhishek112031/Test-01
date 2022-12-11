@@ -34,7 +34,7 @@ module.exports=class Product{
        
     }
 
-    static fetchAll(cb){
+    static fetchAll(cb){//fetchAll function will work after reading the file
         const p=path.join(rootDir,'data','products.json');
         fs.readFile(p,(err,contents)=>{
             if(err){
